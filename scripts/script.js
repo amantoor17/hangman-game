@@ -34,7 +34,7 @@ const gameOver = (isVictory) => {
         gameModal.querySelector('h4').innerText = `${isVictory ? 'Congrats!' : 'Game Over!' }`;
         gameModal.querySelector('p').innerHTML = `${modalText} <b>${currentWord}</b>`;
         gameModal.classList.add("show");
-    }, 300);
+    }, 400);
 }
 
 const initGame = (button, clickedLetter) => {
